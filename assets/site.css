@@ -154,3 +154,8 @@ h3.serif{font-size:30px;line-height:1.1}
 @media (max-width:980px){.hero-grid{grid-template-columns:minmax(0,1fr)}.hero-side{padding:0 0 40px}.globe{max-width:360px}.hero-grid .hero-in{padding-bottom:16px}}
 .form-status{min-height:1.5em;font-size:15px;color:var(--fg2)}.form-status:empty{display:none}.form-status.ok{color:var(--ac)}.form-status.err{color:#F2B0A5}
 .btn[disabled]{opacity:.6;cursor:default;transform:none}
+.prose{max-width:760px;display:flex;flex-direction:column;gap:40px}
+.prose-sec{display:flex;flex-direction:column;gap:14px}
+.prose h2{font-size:clamp(26px,2.6vw,34px)}
+.prose p,.prose li{color:#3F4C54}.prose ul{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px}
+.prose a,.form a{text-underline-offset:4px}
