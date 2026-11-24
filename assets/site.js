@@ -1,6 +1,6 @@
 /* Contact form: sends through Web3Forms without leaving the page.
    Paste your access key from https://web3forms.com between the quotes below. */
-var JP_FORM_KEY='YOUR_WEB3FORMS_ACCESS_KEY';
+var JP_FORM_KEY='bd597c6a-efc0-4752-8ff6-a24b66e25aac';
 (function(){
 var forms=document.querySelectorAll('form[data-form]');
 Array.prototype.forEach.call(forms,function(f){
